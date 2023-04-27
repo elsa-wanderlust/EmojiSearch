@@ -10,8 +10,8 @@ function App() {
   return (
     <div className="page">
       <header className="header">😎 EmojiSearch 😎</header>
-      <Search search={search.toLowerCase()} setSearch={setSearch} />
-      <Line value={search} data={data} />
+      <Search search={search} setSearch={setSearch} />
+      <Line value={search.toLowerCase()} data={data} />
       <Footer />
     </div>
   );
