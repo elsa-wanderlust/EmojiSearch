@@ -6,7 +6,7 @@ const Search = (props) => {
 
   //   console.log(setSearch);
   return (
-    <form>
+    <form className="searchField">
       <input
         className={search !== "" ? "searchStarted" : "empty"}
         type="text"

@@ -3,7 +3,7 @@ import Result from "./Result";
 const Line = (props) => {
   const { value, data } = props;
   return (
-    <div>
+    <div className="allResults">
       {data.map((emoji, index) => {
         if (value === "" && index < 20) {
           console.log(index);
